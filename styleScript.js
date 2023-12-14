@@ -8,7 +8,7 @@
   flex-direction:column;
   z-index:99;
   top:0;
-  position:absolute;
+  position:fixed;
 }
 .head{
   width:50px;
