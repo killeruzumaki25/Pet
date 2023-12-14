@@ -1,9 +1,8 @@
 var body = document.querySelector('body');
 
-var petImg = document.createElement("img");
-petImg.src="https://static.vecteezy.com/system/resources/previews/010/265/386/original/cute-3d-robot-smart-png.png";
-petImg.style.width="200px";
-petImg.style.zIndex="99";
-body.appendChild(petImg);
+var pet = document.createElement("div");
+pet.innerHTML='<div class="body"><div class="head"></div><div class="stomach"></div><div class="hands"><div class="l-hand"></div><div class="r-hand"></div></div><div class="legs"><div class="l-leg"></div><div class="r-leg"></div></div></div>'
+
+body.appendChild(pet);
 
 
