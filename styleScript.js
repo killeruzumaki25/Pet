@@ -7,6 +7,7 @@
   justify-content:center;
   flex-direction:column;
   z-index:99;
+  position:absolute;
 }
 .head{
   width:50px;
