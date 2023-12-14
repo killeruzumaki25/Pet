@@ -43,7 +43,7 @@
   width:70%;
   height:60px;
   position:absolute;
-  top:22vh;
+  top:20vh;
   left:15%;
   background-color:transparent;
   display:flex;
