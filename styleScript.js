@@ -7,8 +7,7 @@
   justify-content:center;
   flex-direction:column;
   z-index:99;
-  top:0;
-  position:fixed;
+  position:absolute;
 }
 .head{
   width:50px;
@@ -39,11 +38,12 @@
 }
 
 .hands{
-  width:14%;
+  z-index:100;
+  width:70%;
   height:60px;
   position:absolute;
   top:22vh;
-  left:4.5%;
+  left:15%;
   background-color:transparent;
   display:flex;
   justify-content:space-between;
