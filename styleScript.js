@@ -43,7 +43,7 @@
   width:70%;
   height:60px;
   position:absolute;
-  top:20vh;
+  top:22vh;
   left:15%;
   background-color:transparent;
   display:flex;
@@ -61,4 +61,29 @@
 }
 .r-hand{
   transform:rotate(-40deg)
+}
+
+.eyes{
+  width:50px;
+  height:4vh;
+  position:absolute;
+  top:12vh;
+  background-color:transparent;
+  display:flex;
+  justify-content:space-around;
+}
+
+.eyes div{
+  background-color:white;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+}
+.mouth{
+  width:20px;
+  height:5px;
+  position:absolute;
+  top:17vh;
+  left:45%;
+  background-color:white;
 }
