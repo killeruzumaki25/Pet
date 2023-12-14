@@ -1,7 +1,7 @@
 var body = document.querySelector('body');
 
 var petImg = document.createElement("img");
-petImg.src="https://orangemushroom.files.wordpress.com/2022/01/stimulate-effect.gif";
+petImg.src="https://static.vecteezy.com/system/resources/previews/010/265/386/original/cute-3d-robot-smart-png.png";
 petImg.style.zIndex="99";
 body.appendChild(petImg);
 
